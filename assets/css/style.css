@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  /* brand color palette */
+:root {
+    --primary: rgb(103, 0, 213);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+  }
+
+ body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: white;
+    
+  }
+
+header{
+/* background-color: rgb(74, 74, 125); */
+background-image: linear-gradient(purple, cyan);
+color: white;
+text-align: center;
+justify-content: space-between;
+padding: 2px;
+
+
+}
+
+.banner {
+  color: white;
+text-align: left; 
+font-size: 200%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* background-image: url("../images/baner.jpeg") linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%); */
+    background-image: url("../images/banner.jpeg");
+    height: 200px;
+    margin: 0 0;
+    background-size: cover;
+}
+#about {
+  text-align: center;
+  font-size: 125%; 
+  text-decoration: underline;
+}
+
+
+div h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.hero-project img {
+  
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-size: cover; */
+  width:100%;
+  height: 400px;
+  
+  }
+
+
+.projects{
+/* flex: 1 0 0; */
+padding: 1px;
+text-align: center;
+border-width: 1px;
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+}
+
+
+
+.nav-text{
+    color: white;
+}
+.projects img {
+width: 300px;
+margin: 10px;
+
+
+}
+
+#contact {
+  text-align: center;
+  
+}
+
+footer img {
+margin: 20px; 
+
+}
+
+
+    
