@@ -1,75 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="has-navbar-fixed-top" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amrita: Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
 
   <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <a class="nav-text" href="#about">About Me</a>
-                <a class="nav-text" href="#portfolio">Portfolio</a>
-                <a class="nav-text" href="#contact">Contact</a>
-                <a class="nav-text" href="#resume">Resume</a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-
-        <figure class="banner"><h1>Amrita Raja</h1> </figure>
-            
-        <section id="about">
-            <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-        </section>
-
-      <div>
-            <h1>Portfolio</h1>
-            <section class="hero-project">
-                <img src="assets/images/planet.jpg" alt="banner image">
-            </section>
-        </div>
-
-        <div id="portfolio" class="projects">
-            
+    <main class="">   
+        <nav class="navbar is-fixed-top is-fullheight-with-navbar is-info" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://bulma.io">
+                <img src="assets/images/Logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" height="28">
+              </a>
     
-            <section><img src="assets/images/planet.jpg" alt="banner image">
-                    <h2>Project 1</h2>
-                    <p>About project</p>
-            </section>
-                
-            <section><img src="assets/images/planet.jpg" alt="banner image">
-                <h2>Project 2</h2>
-                <p>About project</p>
-            </section>
-                
-            <section><img src="assets/images/planet.jpg" alt="banner image">
-                <h2>Project 3</h2>
-                <p>About project</p>
-            </section>
-                
-            <section><img src="assets/images/planet.jpg" alt="banner image">
-                    <h2>Project 4</h2>
-                    <p>About project</p>
-            </section>
-                
+              <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#portfolio">Portfolio</a>
+                    <a class="navbar-item" href="#contact">Contact</a>
+                    <a class="navbar-item" href="#resume">Resume</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+     <section class="hero is-small is-info">
+            <div class="hero-body">
+              <p class="title">
+                About Me
+              </p>
+              <p class="subtitle">
+                Full stack developer, graduate from UT Coding Bootcamp in May 2023. :)
+              </p>
+            </div>
+     </section>
+
+
+    <div id="portfolio" class="projects content has-text-centered">
+        <h3 class="p-4 title is-2">Projects</h3>
+            <div class="columns is-inline ">
+
+                <div class='mb-4 mr-4 ml-4 catalog card column is-2 is-inline-flex'>
+                  <div class='card-image'>
+                    <figure class="image is-3by3">
+                      <img src="assets/images/Culture Cruncher.png" alt='Image' />
+                    </figure>
+                    <div class="card-content">
+                        <div class="content">
+                          <p class="title is-4"><a href="https://dbradley555.github.io/culture-cruncher/">Culture Cruncher</a></p>
+                          <p>This application is designed to inform users about cultures and cuisines of different countries.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class='mb-4 mr-4 ml-4 catalog card column is-2 is-inline-flex'>
+                    <div class='card-image'>
+                      <figure class="image is-3by3">
+                        <img src="assets/images/Thingamabobs.png" alt='Image' />
+                      </figure>
+                      <div class="card-content">
+                          <div class="content">
+                            <p class="title is-4"><a href="https://treethingamabobs.herokuapp.com/">Thingamabobs</a></p>
+                            <p>Thingamabobs as an e-commerce website that allows users to browse items in catalog and purchase as desired.</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class='mb-4 mr-4 ml-4 catalog card column is-2 is-inline-flex'>
+                    <div class='card-image'>
+                      <figure class="image is-3by3">
+                        <img src="assets/images/Weather Wizard.png" alt='Image' />
+                      </figure>
+                      <div class="card-content">
+                          <div class="content">
+                            <p class="title is-4"><a href="https://amritaraja.github.io/Weather-Wizard/">Weather Wizard</a></p>
+                            <p>Weather dashboard that displays the weather for multiple cities. Displays the current weather as well as the 5 day forecast.</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
         </div>
+    </div>
         
-        <footer id="contact">
-            <img src="assets/images/image.png" alt="portfolio image" height="10%" width="10%">
+        <footer class="footer" id="contact">
+            <div class="content has-text-centered">
+                <img src="assets/images/image.png" alt="portfolio image" height="10%" width="10%">
             <h1>Contact me</h1>
             <div>
-                <p>123.456.7891</p>
+                <p>832.202.9979</p>
                 <p>Amritachatarpal@gmail.com</p>
                 <p><a href="https://github.com/Amritaraja" target="_blank">GitHub</a><p>
-                    
             </div>
-           
+            </div>
         </footer>
     </main>
   </body>

@@ -9,4 +9,3 @@ I created my own professional portfolio for employers to view work samples. This
 ## Why is this useful?
 This is beneficial for employers to view my work to determine if I am a good candidate for the job.
 
-![alt text](assets/images/preview.gif?raw=true "Web preview")
